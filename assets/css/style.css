@@ -368,3 +368,19 @@ li:hover{
         margin: 20px;
     }
 }
+.ctn.banner{
+    position: relative;
+    right: 73px;
+}
+.content-col .ctn {
+    margin-right: 30px;
+}
+@media screen and (min-width:764px){
+    .ctn.banner{
+        position: relative;
+        right: 170px !important;
+    }
+    .content-col .ctn {
+        margin-right: 297px;
+    }
+}
