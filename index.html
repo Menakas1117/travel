@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href=" ">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="explore">Explore</a></li>
+            <li><a href="tours">Tours</a></li>
+            <li class="ctn"><a href="footer">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="header-content" id="header-content">
+            <h2>Explore The Colorful World </h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1 id="events">Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col " style="padding-bottom: 20px;">
+                <img src="assets/images/images.jfif" alt="">
+                <h4>Beach House</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur aspernatur animi architecto velit unde eos laudantium omnis minima nam optio.</p>
+            <a href="" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="assets/images/0e8c8e0e78-thumb.jpg" alt="">
+                <h4>Working Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro qui quia iure, unde aliquid dicta nesciunt doloribus possimus perferendis mollitia.</p>
+            <a href="" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore" id="explore">
+        <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit porro magnam eum nobis aliquid, quod doloribus adipisci at. Quisquam hic quae illo. Neque, mollitia.</P>
+        <a href="" class="ctn">Learn More</a>
+    </div>
+    </section>
+
+    <section class="tours" id="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam consequuntur distinctio harum aperiam. Quod ratione, perferendis modi vitae tempora atque facere deserunt labore, tempore ipsam iste, excepturi a laudantium. Maxime reprehenderit porro quas veritatis iure tempora veniam repellat voluptates autem.</P>
+               <a href="" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="assets/images/images (1).jfif" alt="">
+                    <img src="assets/images/changu-lake-600.png" alt="">
+                    <img src="assets/images/portrait-happy-young-smiling-joyful-260nw-2453656701.webp" alt="">
+                    <img src="assets/images/young-beautiful-woman-traveler-enjoys-mountain-beautiful-landscape-active-lifestyle-sri-lanka-ceylon-island-young-beautiful-144155474.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <p>ADVENTURE Ltd
+            582A, D B ROAD, R S PURAM,
+            CHENNAI - 641002
+            
+            Phone:+91422 4242000
+            
+            Email:info@adventure.com
+            </p>
+            <p>© Copyright 2025 Travel and Adventure | Cancellation & Refund Policy | Privacy Policy | Terms & Conditions</p>
+        </section>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
