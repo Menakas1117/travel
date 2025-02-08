@@ -93,7 +93,7 @@ header{
     text-align: right;
 }
 .header-content h2{
-    font-size: 33px;
+    font-size: 36px;
 
 }
 .line{
@@ -366,5 +366,21 @@ li:hover{
     }
     .content-col p {
         margin: 20px;
+    }
+}
+.ctn.banner{
+    position: relative;
+    right: 73px;
+}
+.content-col .ctn {
+    margin-right: 30px;
+}
+@media screen and (min-width:764px){
+    .ctn.banner{
+        position: relative;
+        right: 170px !important;
+    }
+    .content-col .ctn {
+        margin-right: 297px;
     }
 }
